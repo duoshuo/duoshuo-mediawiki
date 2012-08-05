@@ -77,7 +77,7 @@ function onSkinAfterContent_AddDuoshuo(&$data, $skin)
 	}
 
 	$data = wfMsgForContent('duoshuo-before')
-		. '<div class="ds-thread" data-thread-key="' . $wgTitle->getArticleID() . '" data-title="' . $wgTitle->getPrefixedText() . '" data-url="' . $wgRequest->getFullRequestURL() . '"></div>'
+		. '<div class="ds-thread" data-thread-key="' . $wgTitle->getArticleID() . '" data-title="' . $wgTitle->getPrefixedText() . '" data-url="' . $wgTitle->getFullURL() . '"></div>'
 		. wfMsgForContent('duoshuo-after');
 	return true;
 }

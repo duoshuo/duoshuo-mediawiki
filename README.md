@@ -1,16 +1,18 @@
 duoshuo-mediawiki
 =================
 
-多说 extension for mediawiki
+多说 extension for mediawiki，官方主页：[dev.duoshuo.com](http://dev.duoshuo.com/)
 
 ## 安装步骤
-1. 将Duoshuo目录复制到你的MediaWiki的extensions目录中
-2. 在你的LocalSettings文件末尾增加两行：
+1. 在[多说网](http://duoshuo.com/)注册一个站点，记录下域名(ShortName)和密钥(Secret)
+1. 将Duoshuo目录复制到你的MediaWiki的extensions目录下
+1. 在MediaWiki的LocalSettings.php文件末尾增加三行代码：
 
-请将下面的"你的多说域名"替换为你的实际多说域名(不包括.duoshuo.com部分)，必须为小写
+请将下面的"你的多说域名"替换为你的实际多说域名(不包括.duoshuo.com部分，必须为小写)，“你的多说密钥”替换成你实际的多说密钥。
 
     require_once("$IP/extensions/Duoshuo/Duoshuo.php");
     $wgDuoshuoShortName = '你的多说域名';
+    $wgDuoshuoSecret = '你的多说密钥';
 
 ## 注意事项
 你可以在编辑文章时，使用<duoshuo></duoshuo>手动插入评论框

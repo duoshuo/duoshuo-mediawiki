@@ -15,7 +15,7 @@ duoshuo-mediawiki
     $wgDuoshuoSecret = '你的多说密钥';
 
 ## 注意事项
-你可以在编辑文章时，使用<duoshuo></duoshuo>手动插入评论框
+你可以在编辑页面时，使用&lt;duoshuo&gt;&lt;/duoshuo&gt;手动插入评论框
 
 安装完成之后，所有内容页面底部都会出现多说评论框，以下页面不会出现多说评论框：
 * 首页

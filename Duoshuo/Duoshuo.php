@@ -66,7 +66,7 @@ function onSkinAfterContent_AddDuoshuo(&$data, $skin)
 		|| !$wgTitle->canTalk()
 		|| $wgTitle->isTalkPage()
 		|| $wgTitle->isMainPage()
-		|| in_array($wgTitle->getNamespace(), array(NS_MEDIAWIKI, NS_TEMPLATE))
+		|| in_array($wgTitle->getNamespace(), array(NS_MEDIAWIKI, NS_TEMPLATE, NS_CATEGORY))
 		|| $wgOut->isPrintable()
 		|| $wgRequest->getVal('action', 'view') != "view")
 		return true;

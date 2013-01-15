@@ -30,3 +30,4 @@ duoshuo-mediawiki
 
 ## Showcases
 * [旅法师百科](http://wiki.iplaymtg.com/)
+* [萌娘百科](http://wiki.moegirl.org/)

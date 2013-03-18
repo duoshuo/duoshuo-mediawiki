@@ -31,3 +31,13 @@ duoshuo-mediawiki
 ## Showcases
 * [旅法师百科](http://wiki.iplaymtg.com/)
 * [萌娘百科](http://wiki.moegirl.org/)
+
+## Changelog
+### 0.2 (2013-03-18)
+1. 支持JWT方式的单点登录
+1. 使用Apache License 2.0
+1. 兼容mediawiki 1.16 等低版本mediawiki
+
+### 0.1 (2012-08-05)
+1. 自动插入多说脚本
+1. 多语言支持

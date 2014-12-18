@@ -121,7 +121,7 @@ class Duoshuo{
 	(function() {
 		var ds = document.createElement('script');
 		ds.type = 'text/javascript';ds.async = true;
-		ds.src = 'http://static.duoshuo.com/embed.js';
+		ds.src = '//static.duoshuo.com/embed.js';
 		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
 	})();
 </script>

@@ -93,9 +93,9 @@ class Duoshuo{
 			die(1);
 		}
 	
-		$data .= wfMsgForContent('duoshuo-before')
+		$data .= wfMessage('duoshuo-before')->inContentLanguage()->text()
 			. '<div class="ds-thread" data-thread-key="' . $wgTitle->getArticleID() . '" data-title="' . $wgTitle->getPrefixedText() . '" data-url="' . $wgTitle->getFullURL() . '"></div>'
-			. wfMsgForContent('duoshuo-after');
+			. wfMessage('duoshuo-after')->inContentLanguage()->text();
 		return true;
 	}
 	
